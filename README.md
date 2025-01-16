@@ -26,7 +26,7 @@ git push
 其中，“git add .” 表示暂存所有更改。  
 “git commit -m "messages"” 表示提交并留言，messages可以替换成任何语句，如：  
 ```terminal
-git commit -m "Editted the transportation model"
+git commit -m "Update the transportation model"
 ```
 “git push” 表示将以上更改和留言提交到github云端。
 ## 4. 从github获取最新版本
