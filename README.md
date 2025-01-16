@@ -5,7 +5,8 @@ Contact: ysguan@126.com
 这篇文档讲述如何使用Github开展项目协作。
 
 ## 1. 配置git环境
-前往[Git官方网站](https://git-scm.com/)下载git，选择系统版本（如64-bit）对应的standalone installer，安装。可以安装在自己想安装的文件夹，可以不在C盘，按默认选项安装即可。
+Windows：前往[Git官方网站](https://git-scm.com/)下载git，选择系统版本（如64-bit）对应的standalone installer，安装。可以安装在自己想安装的文件夹，可以不在C盘，按默认选项安装即可。  
+Mac：系统一般自带Git。验证方式：打开“终端”，输入“git”，出现关于git的说明即可正常使用。
 
 ## 2. 连接到已有项目
 **注意：从这一步开始需要科学上网。**  
