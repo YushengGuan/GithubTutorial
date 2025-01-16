@@ -13,7 +13,6 @@ Contact: ysguan@126.com
 2.2 按下“ctrl”+“~”打开终端，输入“git clone 你想要克隆的地址”。  
 如：
 ```terminal
-git
 git clone https://github.com/YushengGuan/CHEER-GD
 ```
 等待即可。
