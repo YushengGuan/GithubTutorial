@@ -61,7 +61,7 @@ git pull
 
 ## 5. 问题
 ### 5.1 连接服务器超时
-如输入“git push”、“git clone”、“git pull”等指令使出现连不上服务器的情况，可以使用以下语句配置git：
+如输入“git push”、“git clone”、“git pull”等指令时出现连不上服务器的情况，可以使用以下语句配置git：
 ```terminal
 git config --global http.proxy "http://127.0.0.1:your vpn port"
 git config --global https.proxy "http://127.0.0.1:your vpn port"
