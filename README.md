@@ -59,8 +59,29 @@ git config --global user.email "ysguan@126.com"
 git pull
 ```
 
-## 5. 问题
-### 5.1 连接服务器超时
+## 5. 上传本地代码到github
+### 5.1 在github上创建新仓库
+首先，在dashboard点击左侧绿色“New”按钮，进入创建页面，如下所示。  
+![image](https://github.com/user-attachments/assets/ff4047e0-8202-4a59-9188-949624796d82)  
+然后在Repository name中填写你想要创建的仓库名称。  
+之后，选择仓库属性，Public或Private。  
+最后，点击最下方create repository即可。  
+### 5.2 将本地代码上传到该仓库
+以VSCode为例，首先打开你要上传的文件夹。左上角“文件”-“打开文件夹”，选择即可。你本地的文件夹名称**不必**与github仓库名称相同。  
+之后，查看你刚创建的仓库的链接，如下图所示，复制到粘贴板。  
+![image](https://github.com/user-attachments/assets/07402500-2b3a-4faa-90aa-d5615f9bdb5f)
+最后，在VSCode中打开终端，依次输入以下代码即可，注意将链接换成自己对应仓库的链接。
+```terminal
+git remote add origin https://github.com/YushengGuan/Name.git
+git branch -M main
+git init
+git add .
+git commit -m "first commit"
+git push -u origin main
+```
+
+## 6. 问题
+### 6.1 连接服务器超时
 如输入“git push”、“git clone”、“git pull”等指令时出现连不上服务器的情况，可以使用以下语句配置git：
 ```terminal
 git config --global http.proxy "http://127.0.0.1:your vpn port"
